@@ -1,0 +1,10 @@
+.\obj\main.o: main.C
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\main.o: ..\..\SRC\CH563SFR.H
+.\obj\main.o: ..\..\SRC\CH563BAS.H
+.\obj\main.o: ..\..\SRC\SYSFREQ.H
+.\obj\main.o: ..\..\SRC\CH563SFR.H
+.\obj\main.o: HTTPS.H
+.\obj\main.o: ..\..\SRC\ISPXT56X.H
+.\obj\main.o: ..\PUB\CH563NET.H

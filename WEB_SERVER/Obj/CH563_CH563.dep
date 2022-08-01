@@ -1,0 +1,28 @@
+Dependencies for Project 'CH563', Target 'CH563': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\SRC\ISPXT56X.O)(0x5851E68C)()
+F (.\HTTPS.C)(0x61A61F47)(-c --cpu ARM966E-S -D__MICROLIB -g -W -O0 --apcs=interwork -I ..\WEB_SERVER -I ..\..\SRC -I ..\PUB-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\ST\91x-D__UVISION_VERSION="535"-o .\obj\https.o --omf_browse .\obj\https.crf --depend .\obj\https.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\..\SRC\SYSFREQ.H)(0x52856400)
+I (..\..\SRC\CH563SFR.H)(0x5484FA66)
+I (..\..\SRC\CH563BAS.H)(0x58521034)
+I (HTTPS.H)(0x59016724)
+I (..\PUB\CH563NET.H)(0x58C0C4C8)
+I (..\..\SRC\ISPXT56X.H)(0x5851E686)
+F (..\PUB\CH563NET_keil4.lib)(0x5EFFF09F)()
+F (.\main.C)(0x595C5F56)(-c --cpu ARM966E-S -D__MICROLIB -g -W -O0 --apcs=interwork -I ..\WEB_SERVER -I ..\..\SRC -I ..\PUB-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\ST\91x-D__UVISION_VERSION="535"-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\SRC\CH563SFR.H)(0x5484FA66)
+I (..\..\SRC\CH563BAS.H)(0x58521034)
+I (..\..\SRC\SYSFREQ.H)(0x52856400)
+I (HTTPS.H)(0x59016724)
+I (..\..\SRC\ISPXT56X.H)(0x5851E686)
+I (..\PUB\CH563NET.H)(0x58C0C4C8)
+F (..\..\SRC\SYSFREQ.C)(0x52856400)(-c --cpu ARM966E-S -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\SRC -I ..\WEB_SERVER -I ..\..\SRC -I ..\PUB-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\ST\91x-D__UVISION_VERSION="535"-o .\obj\sysfreq.o --omf_browse .\obj\sysfreq.crf --depend .\obj\sysfreq.d)
+I (..\..\SRC\CH563SFR.H)(0x5484FA66)
+I (..\..\SRC\CH563BAS.H)(0x58521034)
+I (..\..\SRC\SYSFREQ.H)(0x52856400)
+F (..\..\SRC\STARTUP.S)(0x58C0FA32)(--cpu ARM966E-S -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\ST\91x--pd "__UVISION_VERSION SETA 535"--list .\startup.lst --xref -o .\obj\startup.o --depend .\obj\startup.d)

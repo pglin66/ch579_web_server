@@ -1,0 +1,11 @@
+--cpu ARM966E-S
+"..\..\SRC\ISPXT56X.O"
+".\obj\https.o"
+"..\PUB\CH563NET_keil4.lib"
+".\obj\main.o"
+".\obj\sysfreq.o"
+".\obj\startup.o"
+--library_type=microlib --strict --scatter "..\..\SRC\CH563D64.SCF"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\CH563.map" -o .\Obj\CH563.axf
